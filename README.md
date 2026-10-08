@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-links-page-nHT8i-6OUJ](https://www.frontendmentor.io/solutions/social-links-page-nHT8i-6OUJ)
-- Live Site URL: [nicholas-crawford.github.io/social-links-profile-](nicholas-crawford.github.io/social-links-profile-)
+- Live Site URL: [https://nicholas-crawford.github.io/social-links-profile-main/](https://nicholas-crawford.github.io/social-links-profile-main/)
 
 ## My process
 
