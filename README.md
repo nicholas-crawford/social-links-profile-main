@@ -55,6 +55,8 @@ I got a bit more exposure to clamp. I was happiest with how the clamp on the car
 
 I also learnt a bit more about how grid elements affect child component's sizing. For context, I reached for `max-width` on `.profile` without understanding the nuance of having `display: grid` on an element that wasn't `.profile`'s parent. The body was a grid item, and `margin: auto` was making it fit the size of its content. Because of that, `.profile` couldn't grow; it was effectively just fitting content. I moved the centering to the body so `.profile` became the grid item, and used `min()` to make the width sizing easier to manage.  
 
+The active and hover states are pretty simple. The links can be tabbed to and provide the same state to show they are selected.
+
 ### Continued development
 
 I was looking into cqi for the .profile container but my understanding was it only really applied to the child items and it didn't really seem like a good fit for this smaller project. Something to look into later.
