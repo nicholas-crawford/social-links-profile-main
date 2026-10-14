@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-Note: Clamp was used previously but on receiving feedback on it, I decided to switch to a more a tradition media query. Could still be used elsewhere but not really applicable here. Kept in README for historical purposes. 
+Note: Clamp was used previously but on receiving feedback on it, I decided to switch to a more a traditional media query. Could still be used elsewhere but not really applicable here. Kept in README for historical purposes. 
 
 I got a bit more exposure to clamp. I was happiest with how the clamp on the card's padding worked out. It's something I've used before but don't often reach for, and here it does the job without a bunch of extra media query rules. The anchors are predictable as the padding goes from 24px to 40px between a 375px and 432px viewport, which is exactly where the card itself changes size. 
 
