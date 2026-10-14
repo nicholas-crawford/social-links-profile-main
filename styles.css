@@ -74,6 +74,7 @@ html {
 body {
     display: grid;
     place-items: center;
+    grid-template-rows: 1fr auto;
     min-height: 100dvh;
     padding: var(--spacing-300);
 }
@@ -82,11 +83,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: min(384px, 100%);
     background-color: var(--grey-800);
     border-radius: var(--spacing-150);
-    /* Linear function that scales from 375px -> 432px interpolation of 24px -> 40px */
-    padding: clamp(1.5rem, -5.0789rem + 28.0702vw, 2.5rem);
+    padding: 1.5rem;
+}
+
+@media (min-width: 27rem) {
+    .profile {
+        padding: 2.5rem;
+    }
 }
 
 .profile__main-image {
@@ -123,6 +130,8 @@ body {
     flex-direction: column;
     align-self: center;
     width: 100%;
+    list-style: none;
+    padding: 0
 }
 
 .profile__link {
@@ -133,8 +142,8 @@ body {
     border-radius: var(--spacing-100);
     padding: var(--spacing-150) var(--spacing-0);
     width: 100%;
-    text-align: center;
     text-decoration-line: none;
+    display: block;
 }
 
 .profile__link:hover, .profile__link:focus-visible {
